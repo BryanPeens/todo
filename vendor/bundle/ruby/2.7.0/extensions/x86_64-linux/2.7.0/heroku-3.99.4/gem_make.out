@@ -1,5 +1,5 @@
 current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/heroku-3.99.4
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20200615-93406-iicin8.rb extconf.rb
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20200615-112251-1we19eb.rb extconf.rb
 extconf.rb:1:in `<main>': \e[31m heroku must be installed from cli.heroku.com. This gem is no longer available.\e[0m (RuntimeError)
 
 extconf failed, exit code 1

@@ -52,7 +52,6 @@ gem 'jquery-rails'
 #
 #Heroku gem
 gem 'heroku', '~> 3.99', '>= 3.99.4'
-gem 'heroku_deploy', '~> 0.1.11'
 #
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -69,8 +68,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 #
-group :production do
-  gem 'pg', '~> 0.21.0'
+group :production do  
+  gem 'pg', '~> 1.2', '>= 1.2.3'
   gem 'rails_12factor', '~> 0.0.3'  
 end
 
