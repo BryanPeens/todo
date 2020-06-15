@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+puts "Install the Heroku CLI from https://cli.heroku.com"
+exit 1
