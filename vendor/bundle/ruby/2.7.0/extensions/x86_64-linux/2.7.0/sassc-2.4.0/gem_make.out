@@ -1,5 +1,5 @@
 current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20200615-93406-whba0u.rb extconf.rb
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20200615-116806-mmd0d9.rb extconf.rb
 creating Makefile
 
 current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.so
 
 current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20200615-93406-zrkup1/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20200615-116806-1ij6p7u/sassc
