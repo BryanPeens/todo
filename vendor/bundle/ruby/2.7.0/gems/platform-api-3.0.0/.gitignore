@@ -1,0 +1,7 @@
+.yardoc
+doc/
+pkg/
+spec/examples.txt
+repos/*
+
+Gemfile.lock
