@@ -1,0 +1,35 @@
+current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.2.14/ext/mini_racer_extension
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20200615-11486-lk6yda.rb extconf.rb
+checking for -lpthread... yes
+creating Makefile
+
+current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.2.14/ext/mini_racer_extension
+make "DESTDIR=" clean
+
+current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.2.14/ext/mini_racer_extension
+make "DESTDIR="
+compiling mini_racer_extension.cc
+mini_racer_extension.cc: In function ‘void* gvl_ruby_callback(void*)’:
+mini_racer_extension.cc:1062:94: warning: ‘VALUE ruby::backward::cxxanyargs::rb_rescue2(VALUE (*)(...), VALUE, VALUE (*)(...), VALUE, ...)’ is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+ 1062 |             (VALUE(*)(...))&rescue_callback, (VALUE)(&callback_data), rb_eException, (VALUE)0);
+      |                                                                                              ^
+In file included from /usr/include/ruby-2.7.0/ruby/ruby.h:2863,
+                 from /usr/include/ruby-2.7.0/ruby.h:33,
+                 from mini_racer_extension.cc:2:
+/usr/include/ruby-2.7.0/ruby/backward/cxxanyargs.hpp:222:1: note: declared here
+  222 | rb_rescue2(type *q, VALUE w, type *e, VALUE r, ...)
+      | ^~~~~~~~~~
+mini_racer_extension.cc:1062:94: warning: ‘VALUE ruby::backward::cxxanyargs::rb_rescue2(VALUE (*)(...), VALUE, VALUE (*)(...), VALUE, ...)’ is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+ 1062 |             (VALUE(*)(...))&rescue_callback, (VALUE)(&callback_data), rb_eException, (VALUE)0);
+      |                                                                                              ^
+In file included from /usr/include/ruby-2.7.0/ruby/ruby.h:2863,
+                 from /usr/include/ruby-2.7.0/ruby.h:33,
+                 from mini_racer_extension.cc:2:
+/usr/include/ruby-2.7.0/ruby/backward/cxxanyargs.hpp:222:1: note: declared here
+  222 | rb_rescue2(type *q, VALUE w, type *e, VALUE r, ...)
+      | ^~~~~~~~~~
+linking shared-object mini_racer_extension.so
+
+current directory: /home/bryan/todo/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.2.14/ext/mini_racer_extension
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 mini_racer_extension.so ./.gem.20200615-11486-1cj8pln
