@@ -1,0 +1,8 @@
+Rails Migrations 
+https://edgeguides.rubyonrails.org/active_record_migrations.html
+
+Rails Model Validations
+https://guides.rubyonrails.org/active_record_validations.html
+
+Rails Associations 
+https://guides.rubyonrails.org/association_basics.html
