@@ -1,4 +1,4 @@
-1. Postgres Database setup
+#### 1. Postgres Database setup
 https://guides.rubyonrails.org/configuring.html#configuring-a-database
 
 Login to the postgres client
@@ -30,11 +30,11 @@ Make the test environment db user a superuser
 
 Then update the database.yml file to reflect these settings for each environment
 
-2. Rails Associations
+#### 2. Rails Associations
 https://guides.rubyonrails.org/association_basics.html
 
-3. Rails Model Validations
+#### 3. Rails Model Validations
 https://guides.rubyonrails.org/active_record_validations.html
 
-4. Rails Migrations
+#### 4. Rails Migrations
 https://edgeguides.rubyonrails.org/active_record_migrations.html
