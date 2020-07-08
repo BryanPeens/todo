@@ -31,4 +31,4 @@
 /config/master.key
 
 # RubyMine
-.idea
+.idea/todo.iml
