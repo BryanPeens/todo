@@ -7,6 +7,7 @@
 # - Last name
 
 class User < ApplicationRecord
+    belongs_to :company
     belongs_to :cost_center
 
     validates :code, presence: true
