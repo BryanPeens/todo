@@ -15,12 +15,12 @@
 # # - Completed at
 
  class Task < ApplicationRecord    
-    belongs_to :customer, class_name:"Company" 
-    belongs_to :assignee, class_name:"User" 
-    belongs_to :requested_by, class_name:"User" 
-    belongs_to :responsible, class_name:"User" 
-    belongs_to :status, class_name:"TaskStatus" 
-    belongs_to :type, class_name:"TaskType" 
+    belongs_to :customer, class_name: 'Company' 
+    belongs_to :assignee, class_name: 'User' 
+    belongs_to :requested_by, class_name: 'User' 
+    belongs_to :responsible, class_name: 'User'
+    belongs_to :status, class_name: 'TaskStatus' 
+    belongs_to :type, class_name: 'TaskType' 
     
     validates :code, presence: true 
     validates :customer, presence: true   
