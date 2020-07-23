@@ -32,3 +32,6 @@
 
 # RubyMine
 .idea
+
+# Ignore Vendor files
+/vendor/*
