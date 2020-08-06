@@ -20,15 +20,17 @@ gem 'listen'
 gem 'pg'
 
 group :development, :test do
-gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+    gem 'factory_bot_rails'
+    gem 'rspec-rails'
+    gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
-gem 'web-console'
-gem 'spring'
-gem 'spring-watcher-listen'
+    gem 'web-console'
+    gem 'spring'
+    gem 'spring-watcher-listen'
 end
 
 group :production do
-gem 'rails_12factor'
+    gem 'rails_12factor'
 end
