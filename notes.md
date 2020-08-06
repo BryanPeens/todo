@@ -30,6 +30,9 @@ Make the test environment db user a superuser
 
 Then update the database.yml file to reflect these settings for each environment
 
+Install the GUI client for Postgres to easily view your tables and their data.
+https://www.pgadmin.org/
+
 #### 2. Rails Associations
 https://guides.rubyonrails.org/association_basics.html
 
