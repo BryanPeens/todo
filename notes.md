@@ -39,15 +39,15 @@ https://guides.rubyonrails.org/active_record_validations.html
 #### 4. Rails Migrations
 https://edgeguides.rubyonrails.org/active_record_migrations.html
 
-1. rails g migration CreateUser
-2. Add the code to the body of the migration
-3. rake db:migrate 
+> 1. `rails g migration CreateUser`
+> 2. Add the code to the body of the migration
+> 3. `rake db:migrate`
 
 If you make a mistake in the migration, and you want to redo it, you can rollback and re-migrate
-> 1. rake db:rollback step=1 
+> 1. `rake db:rollback step=1` 
 > 2. Make you edits to the body of the migration
-> 3. rake db:migrate
+> 3. `rake db:migrate`
 
 Note, this only rollbacks the last migration. If you need to rollback further to make edits, increase the number of steps
-> 1. rake db:rollback step=2
+> 1. `rake db:rollback step=2`
 Goes back two migrations.
